@@ -91,7 +91,7 @@ public class QRCodeReaderViewController: UIViewController {
       }
     }
 
-    setupUIComponentsWithCancelButtonTitle(builder.cancelButtonTitle)
+    setupUIComponents()
   }
 
   required public init?(coder aDecoder: NSCoder) {
@@ -130,7 +130,7 @@ public class QRCodeReaderViewController: UIViewController {
 
   // MARK: - Initializing the AV Components
 
-  private func setupUIComponentsWithCancelButtonTitle(_ cancelButtonTitle: String) {
+  private func setupUIComponents() {
     view.addSubview(readerView.view)
 
     let sscb = showSwitchCameraButton && codeReader.hasFrontDevice

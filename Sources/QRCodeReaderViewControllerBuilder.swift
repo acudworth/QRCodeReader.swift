@@ -40,11 +40,6 @@ public final class QRCodeReaderViewControllerBuilder {
   public typealias QRCodeReaderViewControllerBuilderBlock = (QRCodeReaderViewControllerBuilder) -> Void
 
   /**
-   The title to use for the cancel button.
-   */
-  public var cancelButtonTitle = "Cancel"
-
-  /**
    The code reader object used to scan the bar code.
    */
   public var reader = QRCodeReader()
