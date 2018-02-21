@@ -193,4 +193,8 @@ public class QRCodeReaderViewController: UIViewController {
         return true
     }
     
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
 }
