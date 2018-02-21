@@ -190,7 +190,7 @@ public class QRCodeReaderViewController: UIViewController {
     
     // MARK: - Status bar
     
-    override var prefersStatusBarHidden: Bool {
+    override public var prefersStatusBarHidden: Bool {
         return true
     }
     
