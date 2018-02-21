@@ -186,4 +186,12 @@ public class QRCodeReaderViewController: UIViewController {
   @objc func toggleTorchAction(_ button: ToggleTorchButton) {
     codeReader.toggleTorch()
   }
+    
+    
+    // MARK: - Status bar
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
 }
